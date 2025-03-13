@@ -7,6 +7,10 @@ body {
     color: #fff;
 }
 
+img {
+    width: 100%;
+}
+
 /* Header */
 .header {
     display: flex;
