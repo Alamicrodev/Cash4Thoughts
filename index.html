@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cash4Thoughts - Home</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Cash4Thoughts</h1>
+        <div class="profile">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRFCzxivJXCZk0Kk8HsHujTO3Olx0ngytPrWw&s" alt="User Thumbnail">
+            <span>Guest</span>
+            <button id="login">Login</button>
+            <span class="currency"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ9FTon4AeRyf-rDfKBpsRmfrWuHeUHFIYYaw&s" alt="Coin"> 0</span>
+        </div>
+    </header>
+    
+    <nav id="sidebar">
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="offerwalls.html">Offerwalls</a></li>
+            <li><a href="rewards.html">Rewards</a></li>
+            <li><a href="about.html">About</a></li>
+        </ul>
+    </nav>
+    
+    <main>
+        <aside id="social-links">
+             <h3>Follow us on social media: </h3>
+            <a href="#"><img src="facebook_icon.png" alt="Facebook"></a>
+            <a href="#"><img src="x_icon.png" alt="X"></a>
+            <a href="#"><img src="instagram_icon.png" alt="Instagram"></a>
+        </aside>
+        
+        <section class="content">
+            <h2>Welcome, User</h2>
+            
+            <h3>Latest Surveys</h3>
+            <div class="survey-list">
+                <div class="survey-card">Survey 1 - <img src="coin_icon.png" alt="Coin"> 50 - 10 mins</div>
+                <div class="survey-card">Survey 2 - <img src="coin_icon.png" alt="Coin"> 75 - 15 mins</div>
+                <div class="survey-card">Survey 3 - <img src="coin_icon.png" alt="Coin"> 100 - 20 mins</div>
+            </div>
+            
+            <h3>Offerwalls</h3>
+            <div class="offerwalls-container">
+                <div class="offerwall-card"><img src="adcend_logo.png" alt="Adcend"> Adcend</div>
+                <div class="offerwall-card"><img src="ayettstudios_logo.png" alt="ayeTstudios"> ayeTstudios</div>
+                <div class="offerwall-card"><img src="revenueuniverse_logo.png" alt="RevenueUniverse"> RevenueUniverse</div>
+            </div>
+            
+            <h3>Rewards</h3>
+            <div class="rewards-container">
+                <div class="reward-card"><img src="paypal_logo.png" alt="PayPal"> PayPal Withdrawal</div>
+                <div class="reward-card"><img src="amazon_logo.png" alt="Amazon"> Amazon Gift Card</div>
+                <div class="reward-card"><img src="xbox_logo.png" alt="Xbox"> Xbox Gift Card</div>
+            </div>
+        </section>
+    </main>
+    
+    <footer>
+        <p>Developed by Muhammad Mohid Alam for UOPeople entrepreneurship course</p>
+    </footer>
+    
+    <script>
+        document.getElementById("login").addEventListener("click", function() {
+            alert("Login functionality coming soon!");
+        });
+    </script>
+</body>
+</html>
