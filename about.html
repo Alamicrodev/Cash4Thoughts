@@ -8,6 +8,7 @@
 </head>
 <body>
     <header>
+        <button id="hamburger">☰</button>
         <h1>Cash4Thoughts</h1>
         <div class="profile">
             <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRFCzxivJXCZk0Kk8HsHujTO3Olx0ngytPrWw&s" alt="User Thumbnail">
@@ -89,5 +90,17 @@
     <footer>
         <p><strong>Developed by Muhammad Mohid Alam for UoPeople Entrepreneurship Course</strong></p>
     </footer>
+
+    <script>
+
+        document.getElementById("hamburger").addEventListener("click", function() {
+                document.getElementById("sidebar").classList.toggle("show");
+            });
+        
+                document.getElementById("login").addEventListener("click", function() {
+                    alert("Login functionality coming soon!");
+                });
+    </script>
+
 </body>
 </html>

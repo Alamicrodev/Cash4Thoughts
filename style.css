@@ -21,7 +21,7 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background: #007bff;
+    background: #1b1b1b;
     color: white;
     padding: 15px 20px;
     position: fixed;
@@ -33,6 +33,7 @@ header {
 /* Logo */
 header h1 {
     font-size: 22px;
+    font-family: cursive;
 }
 
 /* Profile Section */
@@ -52,6 +53,7 @@ header h1 {
     display: flex;
     align-items: center;
     font-size: 14px;
+    margin-left: 10px;
 }
 
 .currency img {
@@ -74,7 +76,7 @@ header h1 {
 main {
     padding: 100px 20px 20px;
     max-width: 800px;
-    margin: 0 auto;
+    margin: auto 0 auto 220px;
 }
 
 /* Navigation Sidebar */
@@ -109,7 +111,12 @@ main {
     background: #007bff;
 }
 
-/* About Page Sections */
+
+aside {
+    margin: 0 auto 20px auto;
+}
+
+/* Sections */
 section {
     background: white;
     padding: 20px;
@@ -118,35 +125,74 @@ section {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
-/* Images in Cards (Fix Oversized Issue) */
-.relevant_image {
-    text-align: center;
-    margin-top: 20px;
+
+h2 {
+    margin-bottom: 10px;
 }
 
-.relevant_image img {
-    max-width: 100%;
-    height: auto;
-    border-radius: 8px;
+h3 {
+    margin: 10px auto;
 }
 
-/* Fix for Cards on Index Page */
-.card {
+p {
+    margin: 10px auto;
+}
+
+ol {
+    padding-left: 20px;
+}
+
+section ul {
+    list-style: none;
+}
+
+section ul li {
+    display: block;
+    margin: 20px auto;
     background: white;
     padding: 15px;
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    max-width: 300px; /* Prevents oversized cards */
-    text-align: center;
-    margin: auto;
 }
 
-.card img {
-    max-width: 100%;
-    height: auto;
-    border-radius: 8px;
-    object-fit: cover;
+
+
+/* Index Page Sections and Cards */
+
+.survey-card {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
+
+.survey-card img {
+    /* max-width: 100%; */
+    height: 50px;
+    width: 50px;
+    border-radius: 8px;
+}
+
+.offerwall-card {
+    max-width: 300px;
+}
+
+.reward-card {
+    max-width: 300px;
+}
+
+
+/* Images in About page section (Fix Oversized Issue) */
+.relevant_image {
+    text-align: center;
+}
+
+.relevant_image img {
+    max-width: 100%;
+    border-radius: 8px;
+    position: relative;
+    top: -50px;
+}
+
 
 /* Horizontal Scroll Fix */
 .horizontal-scroll {
@@ -169,7 +215,7 @@ section {
 
 /* Footer */
 footer {
-    background: #007bff;
+    background: #2d2d2d;
     color: white;
     text-align: center;
     padding: 10px;
@@ -193,6 +239,7 @@ footer {
 
     main {
         padding: 80px 10px;
+        margin: 0 auto;
     }
 
     section {
